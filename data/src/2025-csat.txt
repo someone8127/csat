@@ -1,0 +1,19 @@
+{
+  "exam": {
+    "id": "2025-11-g3",
+    "grade": "고3",
+    "label": "2026학년도 수능"
+  },
+  "questions": [
+    {
+      "number": 18,
+      "title": "다음 글의 목적으로 가장 적절한 것은?",
+      "passage": "Dear students, \n I am Amanda Clark, the school club director, and I am \n writing to you about our school clubs. Over the last few \n semesters, there have been requests for more diverse \n school clubs. For this reason, the school decided to expand \n the number of clubs for extracurricular activities. This \n provides students with an opportunity to make additional \n clubs. Students can make any type of club based on their \n various interests, such as hip-hop, K-pop dancing, or coding. \n Therefore, I am encouraging you to submit a proposal for a \n new club that you would like to create. Please turn this into \n my office by the end of this week. I look forward to
+seeing your great ideas. \n Best regards, \n Amanda Clark",
+      "options": ["동아리 활동에 대한 만족도를 조사하려고", "동아리 개설 제안서 제출을 독려하려고", "체험 활동 결과 보고서를 요청하려고", "동아리 신규 회원 모집을 공지하려고", "방과 후 활동 프로그램을 설명하려고"],
+      "answer": 2,
+      "explanation": "-",
+      "translation": "-"
+    }
+  ]
+}
