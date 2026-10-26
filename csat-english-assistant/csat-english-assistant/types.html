@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>유형별 | CSAT English Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+  <div id="site-header"></div>
+
+  <main class="flex-1 w-full max-w-6xl mx-auto px-4 py-6 sm:py-10">
+    <a href="index.html" class="text-sm text-slate-500 hover:text-brand-600 transition">← 홈</a>
+    <h1 class="mt-2 text-2xl sm:text-3xl font-bold tracking-tight">유형별 문제</h1>
+    <p class="mt-1 text-sm text-slate-500">풀고 싶은 유형을 선택하세요.</p>
+
+    <!-- 유형 카드는 js/config.js 의 TYPES 로 자동 생성됩니다 -->
+    <section id="typeGrid" class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3" aria-label="유형 목록"></section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="data/bank.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/layout.js"></script>
+  <script>
+    (function () {
+      var grid = document.getElementById("typeGrid");
+      grid.innerHTML = window.CEA.TYPES.map(function (t, i) {
+        return '<a href="type.html?t=' + t.key + '" class="group block rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-brand-500 hover:shadow-md">' +
+          '<span class="text-xs font-semibold text-brand-600">TYPE ' + (i + 1) + '</span>' +
+          '<p class="mt-2 text-lg sm:text-xl font-bold leading-snug group-hover:text-brand-700 transition">' + t.name + '</p>' +
+          '<p class="mt-2 text-xs text-slate-400">(' + t.range + ')</p>' +
+          '</a>';
+      }).join("");
+    })();
+  </script>
+</body>
+</html>
