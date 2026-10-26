@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 해설/번역 슬라이드 다운 */
+.collapsible { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .35s ease, opacity .35s ease; opacity: 0; }
+.collapsible.open { grid-template-rows: 1fr; opacity: 1; }
+.collapsible > .inner { overflow: hidden; min-height: 0; }
+
+/* 가로 스크롤 칩 */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* 빈칸 표시 */
+.blank { display: inline-block; min-width: 5.5rem; border-bottom: 2px solid #4f46e5; margin: 0 .15rem; }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.fade-up { animation: fadeUp .3s ease; }

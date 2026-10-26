@@ -1,0 +1,16 @@
+{
+  "name": "csat-english-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "수능·모의고사 영어 리딩 학습 웹앱 (정적 사이트, GitHub Pages)",
+  "scripts": {
+    "build": "npm run build:data && npm run build:css",
+    "build:data": "node tools/build-bank.mjs",
+    "build:css": "tailwindcss -c tailwind.config.js -i css/tailwind.src.css -o css/style.css --minify",
+    "new-exam": "node tools/new-exam.mjs",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "exam": {
+    "id": "sample-g1",
+    "grade": "고1",
+    "label": "샘플 문항 (자체 제작 연습용)"
+  },
+  "questions": [
+    {
+      "number": 23,
+      "title": "다음 글의 주제로 가장 적절한 것을 고르시오.",
+      "passage": "Many students believe that typing notes on a laptop is the smarter choice because it allows them to record almost every word a teacher says. However, this speed can work against them. When typing, students tend to copy lectures word for word without thinking deeply about the meaning. In contrast, writing by hand is slower, so students are forced to listen carefully, decide what is important, and put ideas into their own words. This mental effort helps the information stay in memory. As a result, students who take handwritten notes often perform better on tests that require understanding rather than simple recall. Therefore, the fastest way to take notes is not necessarily the best way to learn.",
+      "options": [
+        "why laptops should be banned in every classroom",
+        "practical ways to increase your typing speed",
+        "how slower handwritten note-taking can promote deeper learning",
+        "the importance of reviewing your notes before an exam",
+        "the effect of technology on teacher-student relationships"
+      ],
+      "answer": 3,
+      "explanation": "글 중반의 'In contrast'를 기점으로 손글씨 필기가 느리기 때문에 오히려 핵심을 골라 자기 말로 정리하게 되고, 그 결과 이해 중심 시험에서 더 좋은 성과를 낸다는 내용이 전개됩니다. 마지막 문장도 '가장 빠른 필기가 최선의 학습법은 아니다'로 같은 논지를 요약합니다. 따라서 ③이 정답입니다.\n① 노트북 사용 금지 주장은 없습니다.\n② 타자 속도 향상은 글의 방향과 반대입니다.\n④ 필기 복습은 언급되지 않았습니다.\n⑤ 교사-학생 관계는 글과 무관합니다.",
+      "translation": "많은 학생들은 노트북으로 필기하는 것이 교사가 하는 거의 모든 말을 기록할 수 있게 해 주기 때문에 더 현명한 선택이라고 믿는다. 하지만 이 속도는 오히려 그들에게 불리하게 작용할 수 있다. 타자를 칠 때 학생들은 의미를 깊이 생각하지 않은 채 강의를 한 단어씩 그대로 옮겨 적는 경향이 있다. 반면 손으로 쓰는 것은 더 느리기 때문에 학생들은 주의 깊게 듣고, 무엇이 중요한지 판단하며, 생각을 자기 말로 바꾸어 표현하지 않을 수 없다. 이러한 정신적 노력은 정보가 기억에 남도록 돕는다. 그 결과 손글씨로 필기하는 학생들은 단순 암기보다 이해를 요구하는 시험에서 더 좋은 성적을 거두는 경우가 많다. 따라서 가장 빠른 필기 방식이 반드시 가장 좋은 학습 방식인 것은 아니다."
+    }
+  ]
+}

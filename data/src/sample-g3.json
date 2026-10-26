@@ -1,0 +1,24 @@
+{
+  "exam": {
+    "id": "sample-g3",
+    "grade": "고3",
+    "label": "샘플 문항 (자체 제작 연습용)"
+  },
+  "questions": [
+    {
+      "number": 31,
+      "title": "다음 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.",
+      "passage": "We often assume that a good scientific theory is one that has been proven true beyond all doubt. Yet philosophers of science have long argued that the opposite is closer to the truth. No amount of confirming evidence can ever establish a general claim with absolute certainty, since the next observation might always contradict it. What separates science from mere belief, then, is not how many supporters a claim has but whether it [[BLANK]]. A theory that is phrased so loosely that no possible result could challenge it may sound impressive, but it teaches us nothing about the world. By contrast, a theory that makes bold, precise predictions takes a real risk, and each time it survives a serious test, our trust in it grows for good reason.",
+      "options": [
+        "stays beyond the reach of every possible criticism",
+        "matches what most experts already believe",
+        "exposes itself to evidence that could show it to be false",
+        "explains every observation without exception",
+        "remains unchanged for many generations"
+      ],
+      "answer": 3,
+      "explanation": "빈칸 뒤의 내용이 결정적 단서입니다. 어떤 결과로도 반박할 수 없을 만큼 느슨하게 진술된 이론은 세상에 대해 아무것도 알려 주지 못하고, 대담하고 정밀한 예측을 하는 이론은 '실제 위험을 감수'하며 시험을 통과할 때마다 신뢰가 쌓인다고 했습니다. 즉 과학과 단순한 믿음을 구분하는 기준은 반증될 수 있는 가능성에 스스로를 노출하는지 여부이므로 ③이 정답입니다.\n① 비판이 불가능한 이론은 오히려 글에서 비판받는 대상입니다.\n② 전문가 다수의 견해는 기준으로 제시되지 않았습니다.\n④ 모든 관찰을 예외 없이 설명한다는 것은 반박 불가능한 이론의 특징에 가깝습니다.\n⑤ 이론의 불변성은 언급되지 않았습니다.",
+      "translation": "우리는 흔히 좋은 과학 이론이란 의심의 여지 없이 참임이 증명된 이론이라고 가정한다. 하지만 과학철학자들은 오래전부터 그 반대가 진실에 더 가깝다고 주장해 왔다. 다음 관찰이 언제든 그것과 모순될 수 있기 때문에, 아무리 많은 확증 증거가 있어도 일반적인 주장을 절대적 확실성으로 확립할 수는 없다. 그렇다면 과학을 단순한 믿음과 구별하는 것은 어떤 주장을 지지하는 사람이 얼마나 많은가가 아니라, 그 주장이 거짓임을 보여 줄 수 있는 증거에 스스로를 노출하는가 하는 점이다. 어떤 가능한 결과로도 도전받을 수 없을 만큼 느슨하게 진술된 이론은 인상적으로 들릴지 모르지만 세상에 대해 우리에게 아무것도 가르쳐 주지 않는다. 반면 대담하고 정밀한 예측을 하는 이론은 실제 위험을 감수하며, 그것이 진지한 검증을 견뎌 낼 때마다 그것에 대한 우리의 신뢰는 합당한 이유로 커진다."
+    }
+  ]
+}
